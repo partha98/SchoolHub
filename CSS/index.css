@@ -1,0 +1,144 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 19 Mar, 2018, 12:05:14 AM
+    Author     : Lenovo PC
+*/
+
+.row-style
+{
+    padding-left:15px;
+    padding-right:15px;
+}
+.space
+{
+    padding-top:75px;
+}
+.navbar .navbar-nav > li > a {
+    color:#fff;
+    font-family:'Lobster Two';
+    font-size:15px;
+}
+.navbar .navbar-nav > li > a:hover {
+color:#000;
+}
+.dashboard-header{
+    background:rgba(139,0,139,8);
+    box-shadow:1px 1px 25px #000;
+    border-radius:5px;
+    padding:10px;
+    color:#fff;
+    font-family:'Pacifico';
+}
+#logo2{
+    font-family:'Arizonia','sans-serif';
+    text-shadow:1px 1px 3px white;
+    font-size:25px;
+}
+.dashboard-content{
+    height:300px;
+    background:yellow;
+    padding-top:5px;
+    padding-left:8px;
+    font-family:'Oleo Script';
+}
+ .content{
+     padding-bottom: 17.5px;
+ }
+ .schoolHub_background{
+     background:url('../Images/school.jpg');
+     background-size: cover;
+     min-height:75%;
+ }
+ .page-content{
+     padding-bottom: 550px;
+ }
+ footer{
+   background: transparent;   
+ }
+ .footer-schoolhub{
+     background: transparent;
+ }
+ .space{
+     padding-top:80px;
+ }
+ #nav-school{
+     background:transparent;
+     border-color:transparent;
+ }
+ .navbar-toggle2{
+     border-color:transparent;
+ }
+ #logo2{
+     color:#FFF;
+ }
+ .footer_Schoolhub{
+     color:#fff;
+ }
+ .footer_schoolHub_link{
+     color:#fff;
+     font-family:'Lobster Two';
+     font-size:15px;
+ }
+ .footer_schoolHub_link:hover{
+     color:#DA70D6;
+ }
+ .schoolHub_header{
+     color:#fff;
+ }
+.space_schoolHub{
+    padding-top:75px;
+}
+.body_schoolHub{
+        background: radial-gradient(#fff,#008080);
+}
+.overlay_upload_content
+{
+  background:#fff;
+  position:absolute;
+  top:50%;
+  left:50%;
+  font-size:50px;
+  color:#000;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  padding:35px;
+  cursor:default;
+}
+.overlay
+{
+       position:fixed;
+       display:none;
+       width:100%;
+       height:100%;
+       top:0;
+       left:0;
+       right:0;
+       bottom:0;
+       background:rgba(0,0,0,0.3);
+       z-index:2;
+       cursor:pointer;
+}
+@media only screen and (max-width:760px)
+ {
+    .dashboard-content{
+     height:inherit;
+ }
+ .navbar-toggle2{
+     border-color:transparent;
+ }
+  #nav-school{
+     background:#6666ff;
+     border-color:transparent;
+ }
+ .footer_Schoolhub{
+     bottom:inherit;
+ }
+ }
+ .update
+ {
+     font-size:25px;
+ }
